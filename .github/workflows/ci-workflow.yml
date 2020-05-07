@@ -28,7 +28,7 @@ jobs:
     needs: build
     strategy:
       matrix:
-        os: [ubuntu-lastest, windows-2016]
+        os: [ubuntu-latest, windows-2016]
         node-version: [10, 12]
 
     steps:
